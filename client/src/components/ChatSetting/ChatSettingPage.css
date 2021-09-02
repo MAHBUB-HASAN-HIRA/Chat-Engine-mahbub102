@@ -1,0 +1,38 @@
+.chat_sitting_container {
+	width: 100%;
+	height: 300px;
+	margin: 30px 0;
+}
+
+.logout {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 13px 0;
+	margin: 10px 0;
+	color: #fff;
+	border: 2px solid #7554a0;
+	background-color: #7554a0;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+.logout:hover {
+	color: rgb(0, 0, 0);
+	background-color: rgb(202, 188, 220);
+	border: 2px solid #7554a0;
+}
+.my_profile {
+	height: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+.user_avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: fill;
+	object-position: center;
+}
