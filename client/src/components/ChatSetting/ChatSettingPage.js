@@ -33,8 +33,8 @@ const ChatSettingPage = ({ chat }) => {
 							person: {
 								avatar: activePerson?.avatar,
 								username: activePerson?.username,
-								first_name: activePerson?.username,
-								last_name: activePerson?.username,
+								first_name: activePerson?.first_name,
+								last_name: activePerson?.last_name,
 								is_online: activePerson?.is_online,
 							},
 						};
